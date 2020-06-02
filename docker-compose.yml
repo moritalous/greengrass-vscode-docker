@@ -1,0 +1,12 @@
+version: '3'
+services: 
+  greengrass:
+    image: amazon/aws-iot-greengrass
+    container_name: aws-iot-greengrass
+    restart: always
+    environment: 
+      TZ: Asia/Tokyo
+    entrypoint: /greengrass-entrypoint.sh
+    volumes: 
+      - ./greengrass/certs:/greengrass/certs
+      - ./greengrass/config:/greengrass/config

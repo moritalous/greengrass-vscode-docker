@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../greengrass/ggc/deployment"
+		},
+		{
+			"path": "../greengrass/ggc/var/log"
+		}
+	],
+	"settings": {}
+}
