@@ -2,9 +2,10 @@ version: "3"
 services:
   greengrass:
     ports:
-      - 8883:8883
       - 443:443
+      - 8000:8000
       - 8088:8088
+      - 8883:8883
     volumes: 
       - ./greengrass/log:/greengrass/ggc/var/log
       - ./greengrass/deployment://greengrass/ggc/deployment
