@@ -13,5 +13,8 @@
     "files.trimFinalNewlines": true,
     "terminal.integrated.shell.linux": "/bin/bash"
   },
+  "extensions": [
+    "ms-python.python"
+  ],
   "shutdownAction": "stopCompose"
 }
